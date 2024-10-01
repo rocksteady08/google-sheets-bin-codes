@@ -11,7 +11,7 @@ function getBankInfo(cardNumber) {
   var bin = cardNumber.toString().slice(0, 6);
 
   // Your API Key from bincodes.com
-  var apiKey = 'YOUR API KEY FROM BINCODES.COM'; // replace this with your actual API key
+  var apiKey = 'YOUR API KEY'; // replace this with your actual API key
 
   // Construct the URL for the API request
   var url = 'https://api.bincodes.com/bin/json/' + apiKey + '/' + bin + '/';
