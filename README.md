@@ -1,7 +1,7 @@
 # Custom Google Sheets Function for BIN Lookup
 A google sheets' custom formula for fetch bank information using card number
 
-For this formula we are using free API access to bincodes.com
+For this formula we are using free API access to bincodes.com.
 Register and obtain your own API key for next steps.
 
 # Features
